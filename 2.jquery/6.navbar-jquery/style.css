@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;500;600&display=swap');
+
+* {
+    font-family: 'Spline Sans Mono', monospace, sans-serif;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #39e341;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    /* Sedikit padding yang lebih konsisten */
+    background-color: whitesmoke;
+    border-radius: 6px;
+    margin: 20px;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar ul li {
+    margin: 0 10px;
+}
+
+.navbar ul li a {
+    color: #2d434a;
+    font-weight: bold;
+    padding: 10px 15px;
+    display: block;
+    text-align: center;
+    margin: 0 10px;
+    position: relative;
+    line-height: normal;
+    transition: background-color 0.3s ease;
+}
+
+.navbar ul li ul {
+    display: none;
+    position: absolute;
+    background-color: whitesmoke;
+    border-radius: 6px;
+}
+
+.navbar ul li ul li a {
+    padding: 8px 15px;
+    margin: 0;
+    line-height: normal;
+}
+
+.navbar ul li ul li a:hover {
+    background-color: #2d434a;
+    color: bisque;
+    transition: all 0.4s ease;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        margin: 10px;
+        /* Sedikit penyesuaian margin */
+    }
+
+    .navbar ul {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10px;
+    }
+
+    .navbar ul li {
+        margin: 10px 0;
+    }
+
+    .navbar ul li ul {
+        background-color: whitesmoke;
+        border-radius: 6px;
+        position: static;
+        z-index: 1;
+    }
+
+    .navbar ul li a {
+        padding: 2px 15px;
+    }
+.navbar ul li ul li a {
+    padding: 3px 16px;
+    margin: 0; 
+}
+    .navbar ul li ul li a:hover {
+        background-color: #2d434a;
+        color: bisque;
+        padding: 10px 15px;
+    }
+}

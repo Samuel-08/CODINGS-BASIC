@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bookshelf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="" id="bukuBaru">
+      <h2>Buku baru</h2>
+      <input type="text" placeholder="id" id="idBuku" hidden>
+      <input type="text" name="judul" id="title" placeholder="Nama Buku" autocomplete="off" autofocus required>
+      <input type="text" name="penulis" id="author" placeholder="Nama Penulis" autocomplete="off" required>
+      <input type="number" name="tahun" id="year" placeholder="2002" autocomplete="off" maxlength="4"
+        minlength="2" required>
+      <input id="isComplete" type="checkbox" name="tanda" value="terbaca">
+      <label for="isComplete">Selesai dibaca</label>
+      <button id="btn-simpan" class="btn-info">Tambah</button>
+    </form>
+  </div>
+
+  <form action="" id="formCari">
+    <input type="text" name="cari" id="cari" placeholder="Atomic habits" autocomplete="off">
+    <div id="pilih">
+      <button type="submit" class="btn-success">Cari</button>
+      <button class="btn btn-info" id="btnSelesai">Selesai</button>
+      <button class="btn btn-info" id="btnBelum">Belum</button>
+    </div>
+  </form>
+
+  <div class="cards">
+    <div class="rak-terbaca">
+      <!-- //terbaca -->
+      <h1 class="rata-tengah">Rak Buku</h1>
+      <h2 class="rata-tengah">Terbaca</h1>
+        <div id="terbaca"></div>
+    </div>
+    <!-- //belumSelesai -->
+    <div class="rak-belum-terbaca">
+      <h1 class="rata-tengah">Rak Buku</h1>
+      <h2 class="rata-tengah">Belum Terbaca</h1>
+        <div id="belumSelesai"></div>
+    </div>
+  </div>
+
+
+
+
+  <script src="app.js"></script>
+</body>
+
+</html>

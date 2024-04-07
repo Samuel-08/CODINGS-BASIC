@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Bookshelf</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="container">
+    <form action="" id="bukuBaru">
+      <h2>Buku baru</h2>
+      <input type="text" placeholder="id" id="idBuku" hidden>
+      <input type="text" name="judul" id="judul" placeholder="Nama Buku" autocomplete="off" autofocus required>
+      <input type="text" name="penulis" id="penulis" placeholder="Nama Penulis" autocomplete="off" required>
+      <input type="number" name="tahun" id="tahun" placeholder="2002" autocomplete="off" maxlength="4"
+        minlength="2" required>
+      <input id="tanda" type="checkbox" name="tanda" value="terbaca">
+      <label for="selesai">Selesai dibaca</label>
+      <button id="btn-simpan" class="btn-info">Tambah</button>
+    </form>
+  </div>
+  <form action="">
+    <input type="text" name="cari" id="cari" placeholder="Atomic habbits" autocomplete="off">
+    <div id="pilih">
+      <button type="submit" class="btn-success">Cari</button>
+      <button class="btn btn-info" id="btnSelesai">Selesai</button>
+      <button class="btn btn-info" id="btnBelum">Belum</button>
+    </div>
+  </form>
+  <h1 class="rata-tengah">List Buku</h1>
+  <div class="cards">
+    <!-- //terbaca -->
+    <div id="terbaca"></div>
+    <!-- //belumSelesai -->
+    <div id="belumSelesai"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>

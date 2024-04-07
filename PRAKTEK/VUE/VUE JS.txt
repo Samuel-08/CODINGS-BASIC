@@ -1,0 +1,20 @@
+CSS FRAMEWORK:
+bootstrap : https://getbootstrap.com/
+BootstrapVue	 : https://bootstrap-vue.org/docs#vue-cli-3
+example : https://stackblitz.com/edit/bootstrap-vue-with-compat?file=main.js
+
+LANGUANGE VUE 2 - VUE 3
+w3school : https://www.w3schools.com/vue/index.php
+Vue 2 :	https://v2.vuejs.org/ || https://v2.vuejs.org/v2/guide/installation 
+Migrate Vue 2 to Vue 3 : https://v3-migration.vuejs.org/
+
+Vue CLI :  https://cli.vuejs.org/guide/installation.html
+
+Vue 3 :	https://vuejs.org/guide/introduction.html
+
+MODULE
+inspect element : https://developer.chrome.com/docs/devtools/overview
+vitejs : https://vitejs.dev/guide/why.html
+Vue Router : https://router.vuejs.org/introduction.html
+
+example : https://play.vuejs.org/#eNp9U1Fv2jAQ/isn7yEg0WTVeEKA1E5M21R11TbtZd6DlxzEJbEj2wEk4L/37IQAbdQn4rvvu/vuu2PP7qoq3tTIJmxqUyMrBxZdXc25kmWljYM9GFyOINVlVTvM4AhLo0uIiBR1oK+6xDYeJ/7ha57Td/917bp8eF0DHrX7omuVdZhToIVxlWplHRhiooUZ7LkCiJJoElqPmpfwhSkUGnB1PPPS2hhU7km4nMg00GArVaa3caFT4aRWcS5sPvSENiGybLEhyoO0DhWaQeQRaS7UCqMRDIYwmzcqLmrHG1HUSB36qpOg0OBK0R+JW8Kf3B1c1DW0B6Pakf++6RLbQqY4uB3C4eCd+Od/T7Y1vaZJs1JaJj0cllUhHNILYCogJxtmnH1IOJt7E6eJmMPhdTJ4SojgaT9EaXWDu+CTu6lIIMHvjV6jggep1p4UKH5IrQgEE2mJeWEBZ5AQaJp0ItmIne7I3+a1+Py2VUwfr1nddfXS2jF6eJcX10sdfxz3Ep2ljS7lKn62WhEzLI+mo2llgeZH5S/AcjZp1upzoij09nuIOVM35xs4Oabrnviz3fkYZ08GLZoNctblnDArpA359OLXI+7ou0uWOqsLQr+T/IlWF7XX2MDuyQOSfYELar+FP6pUq992saNN29NQXqhHHgOeM7Lv8zujn+V+iseBR7fKji/NDYej

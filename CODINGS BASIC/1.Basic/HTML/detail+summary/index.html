@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Summary + Detail</title>
+    <style>
+        .krt {
+            border: 1px solid black;
+            width: 40vw;
+            text-align: center;
+            cursor: pointer;
+        }
+
+        details {
+            margin: 11px;
+            background-color: #007bff;
+            border: 1px solid black;
+            width: 35vw;
+            text-align: center;
+            cursor: pointer;
+            border-radius: inherit;
+        }
+
+        summary::marker {
+            color: chocolate;
+        }
+
+        details[open] summary::marker {
+            color: #10c73b;
+            margin: 11px;
+            background-color: #007bff;
+            border: 1px solid black;
+            width: 35vw;
+            text-align: center;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="krt">
+        <details>
+            <summary>hallo</summary>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus earum totam dolores, facere
+                deserunt
+                corporis impedit, molestias nemo, suscipit reprehenderit est harum.</p>
+        </details>
+    </div>
+
+</body>
+
+</html>

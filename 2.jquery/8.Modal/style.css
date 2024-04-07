@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap');
+*/
+
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+* {
+    font-family: Lexend Deca;
+    line-height: 1.7;
+    font-weight: 300;
+}
+
+#tombol {
+    margin: 20px;
+    background-color: wheat;
+    border: 3px solid burlywood;
+    border-radius: 3px;
+    cursor: pointer;
+    z-index: -1;
+}
+
+ .modals-bg {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.637);
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+#modal-box {
+    margin: 20px;
+    background-color: whitesmoke;
+    /* background-color: #fff; */
+    position: absolute;
+    display: block;
+    width: 500px;
+    padding: 15px;
+    border-radius: 5px;
+    display: none;
+    z-index: 2;
+}
+
+#close-button {
+    background-color: maroon;
+    color: white;
+    border: 3px solid maroon;
+    padding: 4px 12px;
+    float: right;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#close-button:hover {
+    animation: all 0.3 ease-in;
+    /* background-color: rgba(128, 0, 0, 0.786); */
+    background-color: firebrick;
+    color: white;
+    border: 3px solid rgba(128, 0, 0, 0.689);
+    padding: 4px 12px;
+    float: right;
+    border-radius: 3px;
+
+}

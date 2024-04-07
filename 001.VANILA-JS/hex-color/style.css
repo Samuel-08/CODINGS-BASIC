@@ -1,0 +1,60 @@
+ @import url('https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+ body {
+     font-family: 'PT Sans', sans-serif;
+ }
+
+ .container {
+     /* border: 1px solid black; */ 
+     width: 95%;
+     height: 100vh;
+     justify-content: center;
+     align-items: center;
+     display: flex;
+    }
+    .hex-color{
+        /* border: 1px solid black; */ 
+        text-align: center;
+}
+.hex-color h1{
+    font-size: 2rem;
+    text-transform: uppercase;
+    animation: gantiWarna 5s infinite alternate;
+}
+.hex-color h2{
+/* border: 1px solid black; */
+font-size: 2rem;
+margin-top: 15%;
+}
+
+@keyframes gantiWarna{
+    0%{
+        color: pink;
+    }
+    20%{
+        color: indianred;
+    }
+    40%{
+        color: tomato;
+    } 
+    60%{
+        color: red;
+    }
+    80%{
+        color: indigo;
+    }
+    90%{
+        color: purple;
+    }
+    100%{
+        color: magenta;
+    }
+}
+@media(max-width:480px){
+    .hex-color h1{
+        font-size: 1.5rem;
+    }
+    .hex-color h2{
+        font-size: 1.5rem;
+    }
+}

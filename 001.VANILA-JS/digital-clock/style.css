@@ -1,0 +1,77 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Lexend:wght@300;400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Khula:wght@300;400;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Condensed:wght@300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Serif:wght@300;400;500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Underdog&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Spline+Sans+Mono:wght@400;500;600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sura:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:wght@300;400;500&display=swap');
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Flex:opsz,wght@8..144,300;8..144,400;8..144,500&display=swap');
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@300;400;500;600;700&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Serif:wght@300;400;500&family=Yantramanav:wght@300;400;500&display=swap');
+
+
+
+*{
+    font-family: 'IBM Plex Mono';
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: conic-gradient(from .5turn at center left, lime, cyan);
+}
+.container{
+    border: 1px solid black;
+    width: 95%;
+    height: 100vh;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.digitalCLock{
+    border: 1px solid black;
+    width: fit-content;
+    margin: auto;
+    padding: 10px;
+    border-radius: 8px;
+    color: #aba;
+    background-color:  rgba(0, 0, 0, 0.623);
+}    
+.digitalCLock h1{
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+    font-size: 4.3rem;
+}
+@media(max-width: 768px){
+    #bar1,#bar2{
+        display: none;
+    }
+    .digitalCLock{
+        text-align: center;
+        width: 100%;
+    }
+    .digitalCLock h1 {
+    display: block;    
+    }
+}
+@media(max-width: 480px){
+.digitalCLock h1 {
+font-size: 4rem;    
+}
+}

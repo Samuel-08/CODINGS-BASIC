@@ -1,0 +1,41 @@
+<script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Letakkan scriptnya didalam di dalam head seperti ini-->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"
+        integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous">
+        </script>
+
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            float: left;
+            padding: 5px;
+            margin: 20px;
+            background-color: #5267c2;
+            border-radius: 6px;
+        }
+    </style>
+    <title>Pengenalan Jquery</title>
+</head>
+
+<body>
+
+    <div id="satu">
+        <p>Kotak-1</p>
+    </div>
+    <div id="dua">Kotak-2</div>
+
+    <script>
+        $("#dua").css("border", "4px solid red");
+    </script>
+</body>
+
+</html>

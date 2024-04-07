@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BELALAR</title>
+  <style>
+    * html {
+      box-sizing: border-box;
+      width: 100vw;
+      height: 100vh;
+      margin: 0;
+      padding: 0;
+    }
+
+    #header {
+      border: 1px solid navy;
+      border-radius: 8px;
+      padding: 20px;
+      margin: 10px;
+      background-color: cadetblue;
+      color: yellow;
+    }
+
+    #main {
+      border: 1px solid green; 
+      padding: 20px;
+      margin: 10px;
+      background-color: dodgerblue;
+    }
+
+    #section {
+      border: 1px solid gold; 
+      padding: 20px;
+      margin: 20px;
+      background-color: red;
+      /* position: absolute; */ 
+  }
+  
+  aside {
+      border: 1px solid wheat;
+      border-radius: 14px;
+      background-color: goldenrod; 
+      padding: 20px;
+      margin: 10px;
+    }
+footer {
+      border: 2px solid lime;
+      background-color:brown; 
+      padding: 20px;
+      margin: 10px;
+ 
+    }
+  </style>
+</head>
+
+<body>
+  <header id="header">
+    <h1>Spasi</h1>
+  </header>
+  <hr>
+  <main id="main">
+    <h5>main</h5>
+    <aside>
+      <h2>aside-1</h2>
+    </aside>
+    <section id="section">
+      <h3>section</h3>
+      <aside>
+        <h4>aside-3</h4>
+      </aside>
+    </section>
+  </main>
+<footer>
+  <p>tulisan ini berasal dari footer main section</p>
+</footer>
+
+<!-- Memanggil elemen kustom 'my-custom-element' -->
+<my-element></my-element>
+
+<script>
+  class MyElement extends HTMLElement {
+  constructor() {
+    super();
+    this.attachShadow({mode: 'open'});
+    this.shadowRoot.innerHTML = `<div>Hello, this is my custom element!</div>`;
+  }
+}
+
+window.customElements.define('my-element', MyElement);
+</script>
+</body>
+</html>
